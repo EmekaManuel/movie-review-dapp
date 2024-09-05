@@ -1,9 +1,7 @@
 import { Connection, PublicKey, AccountInfo } from '@solana/web3.js';
 import bs58 from 'bs58';
 import { Movie } from '@/models/movie-model';
-
-export const MOVIE_REVIEW_PROGRAM_ID =
-  'CenYq6bDRB7p73EjsPEpiYN7uveyPUTdXkDkgUduboaN';
+import { MOVIE_REVIEW_PROGRAM_ID } from '@/components/ui/review-form';
 
 export class MovieCoordinator {
   static accounts: PublicKey[] = [];

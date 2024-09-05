@@ -10,7 +10,8 @@ import { Movie } from '@/models/movie-model';
 import { StarIcon } from '@heroicons/react/24/solid';
 
 import { useFormTransactionToast } from './ui-layout';
-import { MOVIE_REVIEW_PROGRAM_ID } from '@/coordinator/movieCordinator';
+export const MOVIE_REVIEW_PROGRAM_ID =
+  'CenYq6bDRB7p73EjsPEpiYN7uveyPUTdXkDkgUduboaN';
 
 export const Form: FC = () => {
   const [title, setTitle] = useState('');
